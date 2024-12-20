@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ro"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Festivalul Rock the Night reunește pasionații de muzică rock și alternativă. Vino să experimentezi vibe-ul unei locații urbane, muzică live de top și o atmosferă unică!">
+        <title>Rock the Night</title>
+        <meta name="autor" content="Boca Daria Diana">
+        <meta name="keywords" content="festival rock, muzică live, eveniment">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+        <style>
+            body{
+                background-color: #323e42;
+                font-family: 'Montserrat';
+            }
+            .meniu{
+                justify-items: center;
+                background-color: #c55ffc;
+            }
+
+            .meniu .nav-link{
+                color: black;
+                font-weight: bold;
+                margin-left: 40px;
+            }
+
+            .meniu img{
+                height: 50px;
+                width: auto;
+                vertical-align: center
+            }
+
+            .carousel-inner img {
+                object-fit: cover;
+                height: 600px;
+                width: 100%;
+            }
+
+            h2{
+                color: aliceblue;
+                margin-top: 10px
+            }
+
+            p{
+                color: aliceblue;
+                font-size: 17px;
+            }
+            hr{
+                color: aliceblue;
+            }
+            .sectiune{
+                margin: 12px
+            }
+            h3{
+                color: aliceblue;
+            }
+            li{
+                color: aliceblue;
+            }
+            .container{
+                display: flex;
+                gap: 20px;
+            }
+            .card{
+                flex: 1;
+                padding: 20px;
+                background-color: #7954A1;
+                margin-left: 12px;
+            }
+            .accordion {
+                padding: 10px;
+                margin-left: 80px;
+                margin-right: 80px;
+            }
+            .accordion-item{
+                background-color: #7954A1;
+            }
+            .accordion-button{
+                background-color: #7954A1;
+            }
+            .custom-btn {
+                background-color: #7954A1;
+                color: aliceblue;
+                width: 200px;
+                height: 55px;
+                font-size: 20px;
+                border-radius: 20px;
+            }
+            .contact p{
+                margin:5px
+            }
+            .footer img{
+              height: 50px;
+              width: auto;
+              vertical-align: center;
+            }
+            button a{
+              color: #323e42; 
+            }
+           
+        </style>
+    </head>
+
+    <body>
+        <header class="navbar navbar-expand-lg meniu sticky-top">
+            <nav class="container-xxl">
+                <h1 class="navbar-brand">
+                    <a class="nav-link" href="index.html">
+                        <img src="logo-rtn.png" alt="logo Rock The Night-Festival">Rock the Night
+                    </a>
+                </h1>         
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#meniu"  aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="meniu">
+                    <ul class="nav meniu flex-column flex-md-row ">
+                        <li class="nav-item"><a class="nav-link" href="#sectiunea1">Despre Festival</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sectiunea2">Prețuri Bilete</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sectiunea3">Experiența Festivalului</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sectiunea4">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div id="carouselHeader" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-inner">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#slider" data-bs-slide-to="3" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#slider" data-bs-slide-to="4" aria-label="Slide 4"></button>
+                </div>
+
+              <div class="carousel-item active">
+                <img src="chitarist.jpg" class="d-block w-100" alt="un chitarist pe scenă înconjurat de lumini mov și albastre">
+              </div>
+
+              <div class="carousel-item">
+                <img src="multime4.jpg" class="d-block w-100" alt="mulțimea entuziasmată la concert">
+              </div>
+
+              <div class="carousel-item">
+                <img src="pexels-photo-976866.jpeg" class="d-block w-100" alt="o imagine cu mulțimea cu mâinile în aer entuziasmată">
+              </div>
+
+              <div class="carousel-item">
+                <img src="musician--1.jpg" class="d-block w-100" alt="un cântăreț pe scenă cântand înconjurat de lumini">
+              </div>
+
+              <div class="carousel-item">
+                <img src="pexels-photo-167446.jpeg" class="d-block w-100" alt="muzician cu chitara și microfonul în mână pe scenă">
+              </div>
+
+              <div class="carousel-caption d-block">
+                <p>O noapte de rock autentic în inima orașului!</p>
+                <p>Dată și Locație: 10-12 August 2024 | Fabrica Urbană, București.</p>
+              </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselHeader" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselHeader" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+
+            <hr>
+            <br>
+
+            <div id="sectiunea1">    
+                <h2 class="text-center">Despre Festival</h2>
+                    <p class="sectiune">Festivalul Rock The Night este mai mult decât un simplu eveniment muzical – este o experiență completă dedicată iubitorilor de rock din toate colțurile lumii! 
+                        Organizăm anual un spectacol de neuitat, aducând pe scenă trupe legendare și artiști emergenți, pentru a celebra energia și spiritul liber al muzicii rock. 
+                        Cu o tradiție de peste 5 ani, festivalul nostru a devenit un punct de referință pentru comunitatea rock, oferind participanților concerte electrizante, o atmosferă vibrantă și momente pline de emoție. 
+                        Pe lângă muzică, te vei putea bucura de o gamă variată de activități: zone de relaxare, târguri cu produse tematice, mâncare delicioasă și multe altele. Fiecare ediție este gândită să fie un loc unde pasiunea pentru muzică unește oameni din toate generațiile. 
+                        Alătură-te și tu la Rock The Night 2024 și lasă-te purtat de magia rock-ului!
+                    </p>
+            </div>
+
+                <h2 class="text-center">Line-Up (Artiști și Trupe Invitate)</h2>
+                    <p class="sectiune">Line-up-ul acestui an include unele dintre cele mai mari nume din rock-ul alternativ, alături de trupe emergente care promit să electrizeze scena!</p>
+  
+                <h3 class="sectiune col-6 col-md-4 col-lg-3">Artiști și Trupe Invitate:</h3>
+                    <ul class="sectiune">
+                        <li>The Rebels – Rock Alternativ</li>
+                        <li>Electric City – Indie Rock</li>
+                        <li>Stormborn – Post-Rock</li>
+                    </ul>
+
+                <h2 class="text-center">Programul Festivalului</h2>
+                    <p class="sectiune">Festivalul se desfășoară pe parcursul a trei zile intense, cu muzică non-stop, activități speciale și un final de neuitat!</p>
+            
+            
+            <div class="container"><!--flex-->
+                <div class="row">
+                    <div class="card" style="width: 30%;">
+                        <img src="festival.jpg" class="card-img-top" alt="mulțimea în prima zi de festival">
+                        <div class="card-body">
+                          <p class="card-text text-center">10 August</p>
+                          <ul>
+                            <li> <strong>18:00</strong> – Deschiderea Porților</li>
+                            <li> <strong>20:00</strong> – Concert The Rebels</li>
+                            <li> <strong>22:00</strong> – Concert Electric City</li>
+                          </ul>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 30%;">
+                        <img src="audience4.jpg" class="card-img-top" alt="mulțimea în a doua zi de festival">
+                        <div class="card-body">
+                          <p class="card-text text-center">11 August</p>
+                          <ul>
+                            <li> <strong>18:00</strong> – Sesiune de autografe cu artiști</li>
+                            <li> <strong>21:00</strong> – Concert Stormborn</li>
+                          </ul>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 30%;">
+                        <img src="festival1.jpg" class="card-img-top" alt="mulțimea în a treia zi de festival">
+                        <div class="card-body">
+                          <p class="card-text text-center">12 August</p>
+                          <ul>
+                            <li> <strong>16:00</strong> – Ateliere de muzică pentru toate vârstele</li>
+                            <li> <strong>19:00</strong> – DJ Set de închidere</li>
+                          </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <br>
+
+            <h2 class="text-center"  id="sectiunea2">Bilete Rock The Night – Experiența Ta Rock Autentică!</h2>
+            <p class="text-center">Nu rata ocazia de a trăi o experiență rock autentică! Alege biletul care se potrivește perfect dorințelor tale și bucură-te de cea mai tare atmosferă a verii.</p>
+     
+            <h3 class="text-center">Tipuri de bilete disponibile</h3>
+
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Bilet standard
+                    </button>
+                  </h2>
+
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li><strong>Preț: 100 RON</strong></li>
+                            <li>Beneficii: Acces general pentru o zi la concerte și zonele comune.</li>  
+                            <li>Perfect pentru cei care doresc să se bucure de energia unei zile de festival.</li>
+                        </ul>
+                    </div>
+                  </div>      
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Bilet VIP
+                    </button>
+                  </h2>
+
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li><strong>Preț: 300 RON</strong></li>
+                            <li>Beneficii: Acces complet la toate zilele festivalului.</li>
+                            <li>Sesiuni meet-and-greet cu artiștii.</li>
+                            <li>Acces la zonele speciale cu facilități exclusive.</li>
+                            <li>Ideal pentru fanii dedicați care își doresc o experiență premium!</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br>
+
+              <div class="d-flex justify-content-center align-items-center">
+              <button type="button" class="btn custom-btn position-relative"><a href="https://www.ticketmaster.com/">
+                Cumpără acum
+              </a><span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  selling fast!
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </button>
+            </div>
+            <br>
+
+            
+        <h3 class="text-center">Cum să achiziționezi biletele?</h3>
+        <ol>
+            <li>Alege tipul de bilet dorit (Standard sau VIP).</li>
+            <li>Completează detaliile personale în formularul de comandă online.</li>
+            <li>Efectuează plata rapid și sigur.</li>
+            <li>Primește biletul tău electronic pe e-mail.</li>
+        </ol>
+        <h3 class="text-center"><strong>Modalități de plată disponibile</strong></h3>
+        <p class="text-center">Card bancar, Transfer bancar, Numerar (la punctele de vânzare oficiale).</p>
+
+        <h2 class="text-center">Reduceri și oferte speciale</h2>
+        <p class="sectiune">Early Bird: Achiziționează biletul până pe data de 15 februarie și beneficiază de 20% reducere.</p>
+        <p class="sectiune">La achiziționarea a 5 bilete, al 6-lea este gratuit.</p>
+        <p class="sectiune">Studenți: Reducere de 15% pentru cei care prezintă carnet de student.</p>
+
+        <div class="text-center" id="sectiunea3">
+        <h2 class="text-center mb-4">Galerie</h2>
+        </div>
+       
+        <div class="py-5">
+          <div class="container">
+            <div class="row justify-content-center">
+               
+              <div class="col-12 col-md-4 mb-4">
+                <div class="card">
+                  <img src="artist-band.jpg" class="card-img-top img-fluid" alt="chitarist pe scenă poza alb-negru">
+                </div>
+              </div>
+               
+              <div class="col-12 col-md-4 mb-4">
+                <div class="card">
+                  <img src="audience5.jpg" class="card-img-top img-fluid" alt="mulțimea în extaz înconjurată de lumini">
+                </div>
+              </div>
+               
+              <div class="col-12 col-md-4 mb-4">
+                <div class="card">
+                  <img src="festival.jpg" class="card-img-top img-fluid" alt="mulțimea entuziasmată la festival">
+                </div>
+              </div>
+               
+              <div class="col-12 col-md-4 mb-4">
+                <div class="card">
+                  <img src="concert.jpg" class="card-img-top img-fluid" alt="un om uitându-se la artistul de pe scenă">
+                </div>
+              </div>
+               
+              <div class="col-12 col-md-4 mb-4">
+                <div class="card">
+                  <img src="chitarist2.jpg" class="card-img-top img-fluid" alt="un chitarist cântând pe scenă">
+                </div>
+              </div>
+               
+              <div class="col-12 col-md-4 mb-4">
+                <div class="card">
+                  <img src="multime1.jpg" class="card-img-top img-fluid" alt="mulțimea cu mâinile în aer la concert">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+        <div id="sectiunea4">
+        <h2 class="text-center">Contactează-ne!</h2>
+        <div class="contact p">
+         <p class="text-center">Ai întrebări despre festival, bilete, locație sau orice altceva?</p>
+         <p class="text-center">Echipa Rock The Night este aici pentru a-ți răspunde la toate întrebările tale și a te ajuta să ai cea mai bună experiență la festival!</p>
+         </div>
+ 
+         
+      
+         <h2 class="text-center">Informații de contact:</h2>
+             <div class="text-center">
+                 <p>Email: contact@rockthenight.com</p>
+                 <p>Telefon: +40 123 456 789</p>
+                 <p>Locație: București, România</p>
+             </div>
+ 
+             <hr>
+            
+             <p class="text-center" class="contact p">Te așteptăm la cel mai tare festival rock al verii!</p>
+             <p class="text-center" class="contact p">Echipa Rock The Night Festival este gata să îți ofere o experiență de neuitat.</p>
+             <p class="text-center" class="contact p">Contactează-ne și haide să facem din acest festival un eveniment memorabil!</p>
+         </div>  
+
+        <footer class="bg-dark text-white py-4 ">
+            <div class="container">
+              <div class="row text-center text-md-start">
+            
+                <div class="d-flex flex-column justify-content-center align-items-center col-4 col-md-4 col-lg-4 mb-4 footer img">
+                  <a class="nav-link" href="index.html">
+                    <img src="logo-rtn.png" alt="logo Rock The Night-Festival">Rock the Night
+                </a>
+                </div>
+               
+              <div class=" d-flex flex-column justify-content-center align-items-center col-4 col-md-4 col-lg-4 mb-4 pt-3">
+                <p>&copy; Festivalul Rock The Night. Toate drepturile rezervate.</p>
+              </div>
+
+              <div class="col-4 col-md-4 col-lg-4 mb-4  d-flex flex-column justify-content-center align-items-center">
+                <h5>Urmărește-ne</h5>
+                <div class="d-flex justify-content-center justify-content-md-start">
+                  <a href="https://instagram.com" target="_blank" class=" img-fluid me-3"><img src="instagram.png" alt=""></a>
+                  <a href="https://facebook.com" target="_blank" class=" img-fluid me-3"><img src="facebook.png" alt=""></a>
+                  <a href="https://x.com" target="_blank" class="img-fluid  me-3"><img src="twitter.png" alt=""></a>
+                </div>
+              </div>
+            </div>
+            </div>
+          </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    </body>
+
+    </html>
